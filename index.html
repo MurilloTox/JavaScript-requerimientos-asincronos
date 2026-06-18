@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Requerimientos Asíncronos - Ventas de Café</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.25/css/jquery.dataTables.min.css">
+</head>
+<body class="min-h-screen bg-gradient-to-br from-blue-100 via-indigo-50 to-purple-100">
+
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        
+        <h2 class="text-2xl font-bold mb-6 text-center text-gray-800">[Tu Matrícula] - Javier Murillo</h2>
+
+        <div class="bg-white p-6 rounded-lg shadow-lg overflow-x-auto">
+            <table id="example" class="table-auto w-full display">
+                <thead>
+                    <tr>
+                        <th>Hour</th>
+                        <th>Cash Type</th>
+                        <th>Money</th>
+                        <th>Coffee</th>
+                        <th>Time of Day</th>
+                        <th>Weekday</th>
+                        <th>Month</th>
+                        <th>Weekday Sort</th>
+                        <th>Month Sort</th>
+                        <th>Date</th>
+                        <th>Time</th>
+                    </tr>
+                </thead>
+                <tbody id="table-body">
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.25/js/jquery.dataTables.min.js"></script>
+    <script type="module" src="js/index.js"></script>
+
+</body>
+</html>
